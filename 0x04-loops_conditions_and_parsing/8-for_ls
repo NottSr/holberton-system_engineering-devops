@@ -5,5 +5,5 @@
 
 for var in *
 do
-    echo $var | cut -f2 -d "-"
+    echo "$var" | cut -f2 -d "-"
 done
