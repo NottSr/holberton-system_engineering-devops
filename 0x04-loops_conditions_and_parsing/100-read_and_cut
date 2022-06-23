@@ -3,7 +3,7 @@
 # of the file /etc/passwd
 
 FILE="/etc/passwd"
-while IFS=':' read -r f1 f2 f3 f4 f5 f6 f7
+while IFS=: read -r username _password userid _groupid _comment homedir _cmdshell
 do
-    echo "$f1:$f3:$f6"
-done < "$FILE"
+    echo "$username:$userid:$homedir"
+done < $FILE
