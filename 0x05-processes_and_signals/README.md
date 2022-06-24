@@ -3,7 +3,7 @@
 <h1 class="gap">0x05. Processes and signals</h1>
 
 <div class="panel-body">
-    <h2>Resources</h2>
+<h2>Resources</h2>
 
 <p><strong>Read or watch</strong>:</p>
 
@@ -58,4 +58,4 @@
 
 <p>For those who want to know more and learn about all signals, check out <a href="/rltoken/yhnvsg_MvXuhE84jKTeXkQ" title="this article" target="_blank">this article</a>.</p>
 
-  </div>
+</div>
